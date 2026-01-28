@@ -11,7 +11,7 @@
     "paths": { "*": ["./src/*"] },
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "types": ["node"]
+    "types": ["jest", "node"]
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"],
