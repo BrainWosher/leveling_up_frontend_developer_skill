@@ -13,7 +13,7 @@
     "allowSyntheticDefaultImports": true,
     "types": ["jest", "node"]
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*","./config/jest/setupTests.ts"],
   "exclude": ["node_modules"],
   "ts-node": {
     "compilerOptions": {

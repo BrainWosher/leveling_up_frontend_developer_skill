@@ -29,7 +29,7 @@ module.exports = {
     'import/extensions': 'off',
     'import/no-extraneous-dependencies': 'off',
     'no-underscore-dangle': 'off',
-    'i18next/no-litersl-string': ['error', { markupOnly: tue }],
+    'i18next/no-litersl-string': ['error', { markupOnly: true }],
     'max-len': ['error', { ignoreComments: true, code: 120 }],
   },
   globals: {
