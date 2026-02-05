@@ -11,6 +11,7 @@
     "paths": { "*": ["./src/*"] },
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
+    "strictBindCallApply": true,
     "types": ["jest", "node"]
   },
   "include": ["./src/**/*.ts","./src/**/*.tsx","./config/jest/setupTests.ts"],
