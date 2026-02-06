@@ -5,11 +5,11 @@ import { buildLoaders } from './buildLoaders';
 import { buildResolvers } from './buildResolvers';
 import { buildDevServer } from './buildDevServer';
 
-export function buildWebpackConfigt(options: BuildOptions): webpack.Configuration {
+export function buildWebpackConfig(options: BuildOptions): webpack.Configuration {
   const { mode, paths, isDev } = options;
 
   return {
-    mode,
+    mode: mode,
     entry: paths.entry,
     output: {
       filename: '[name].[contenthash].js',
