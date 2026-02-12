@@ -4,10 +4,10 @@ import {ComponentMeta, ComponentStory} from '@storybook/react';
 import {BugButton} from './BugButton';
 import {ThemeDecorator} from "shared/config/storybook/ThemeDecorator/ThemeDecorator";
 import {Theme} from "app/providers/ThemeProvider";
-import {ButtonSize, ButtonTheme} from "shared/ui/Button/Button";
+import {ButtonTheme} from "shared/ui/Button/Button";
 
 export default {
-  title: 'widgets/BugButton',
+  title: 'widget/BugButton',
   component: BugButton,
   argTypes: {
     backgroundColor: { control: 'color' },
