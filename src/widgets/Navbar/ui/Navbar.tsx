@@ -28,10 +28,7 @@ export const Navbar = ({ className }: NavbarProps) => {
         isOpen={isAuthModal}
         onClose={onToggleAuthModal}
       >
-        {/* eslint-disable-next-line i18next/no-literal-string */}        {/* eslint-disable-next-line i18next/no-literal-string */}
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Aspernatur atque enim ex, laborum libero nam odit quis rem
-        repudiandae veniam?
+        {t('Modal text')}
       </Modal>
     </div>
   );
