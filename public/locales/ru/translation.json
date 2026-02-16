@@ -1,6 +1,8 @@
 {
   "Modal text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n        Aspernatur atque enim ex, laborum libero nam odit quis rem\n        repudiandae veniam?",
   "Throw Error": "Ошибка",
+  "decrement": "уменьшить",
+  "increment": "увеличить",
   "toggle": "свернуть",
   "Войти": "Войти",
   "Главная": "Главная",
